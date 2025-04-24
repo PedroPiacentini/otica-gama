@@ -1,72 +1,51 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiAward, FiClock, FiCpu, FiEye, FiTool} from "react-icons/fi";
 
 import { IBenefit } from "@/types"
+import { IoMdGlasses } from "react-icons/io";
 
 export const benefits: IBenefit[] = [
     {
-        title: "Smart Budgeting",
-        description: "Take the guesswork out of managing your money. Our AI-powered budgeting tool adapts to your lifestyle and helps you stay on track.",
+        title: "Serviços de Qualidade",
+        description: "Na Ótica Gama, oferecemos soluções rápidas e eficientes para suas necessidades visuais, com atendimento personalizado e produtos de alta qualidade.",
         bullets: [
             {
-                title: "Intelligent Categorization",
-                description: "Automatically sorts your transactions for crystal-clear insights.",
-                icon: <FiBarChart2 size={26} />
+                title: "Montagem de Óculos em 1 Hora",
+                description: "Receba seus óculos prontos em até 1 hora, com precisão e cuidado.",
+                icon: <FiClock size={26} />
             },
             {
-                title: "Customizable Goals",
-                description: "Set and track financial objectives that matter to you.",
-                icon: <FiTarget size={26} />
+                title: "Conserto de Óculos",
+                description: "Consertamos armações, trocamos hastes, lentes e muito mais. Deixe seus óculos como novos!",
+                icon: <FiTool size={26} />
             },
             {
-                title: "Predictive Analysis",
-                description: "Get ahead of your finances with spending forecasts and alerts.",
-                icon: <FiTrendingUp size={26} />
+                title: "Diversos Modelos de Óculos",
+                description: "Temos uma grande variedade de armações e lentes para todos os estilos e necessidades.",
+                icon: <IoMdGlasses size={26} />
             }
         ],
         imageSrc: "/images/mockup-1.webp"
     },
     {
-        title: "Seamless Investing",
-        description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
+        title: "Excelência em Cada Detalhe",
+        description: "Na Ótica Gama, unimos tradição, expertise e tecnologia para oferecer o melhor cuidado visual. Confie em quem tem experiência e qualidade!",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Especialista VARILUX",
+                description: "Oferecemos lentes VARILUX, as mais avançadas e confortáveis do mercado, para uma visão perfeita.",
+                icon: <FiEye size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "25 Anos de Mercado",
+                description: "Desde 1999, cuidando da visão dos nossos clientes com dedicação e profissionalismo.",
+                icon: <FiAward size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "Tecnologia de Ponta",
+                description: "Utilizamos as mais recentes tecnologias para garantir precisão e qualidade em nossos serviços.",
+                icon: <FiCpu size={26} />
             }
         ],
         imageSrc: "/images/mockup-2.webp"
-    },
-    {
-        title: "Bank-Grade Security",
-        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
-        bullets: [
-            {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
-        imageSrc: "/images/mockup-1.webp"
-    },
+    }
 ]
